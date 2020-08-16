@@ -1,0 +1,4 @@
+# ZBar image015.jpg
+milliseconds = 0.3418006896972656
+message = VERSION 2 8CM
+261 189 14 661 501 910 727 417

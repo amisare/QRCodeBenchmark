@@ -1,0 +1,4 @@
+# ZBar image013.jpg
+milliseconds = 0.1039369106292725
+message = Version 1 QR
+455 506 454 559 508 560 511 506

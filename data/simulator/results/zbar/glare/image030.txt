@@ -1,0 +1,4 @@
+# ZBar image030.jpg
+milliseconds = 0.07990193367004395
+message = https://goo.gl/forms/ofwmcoJn1qN6HPb72
+227 212 239 475 504 472 511 215

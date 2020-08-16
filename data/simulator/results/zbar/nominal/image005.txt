@@ -1,0 +1,4 @@
+# ZBar image005.jpg
+milliseconds = 0.02947497367858887
+message = {"lastNode":"OAK5","cids":{"pkey":"171227103636638907587520201AZ"}}
+402 266 439 86 252 48 214 223

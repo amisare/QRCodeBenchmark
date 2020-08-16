@@ -1,0 +1,4 @@
+# OpenCV image052.jpg
+milliseconds = 0.03869009017944336
+message = http://goo.gl/ErBxV
+223.7879 176.1212 495 151 505.6544 426.6328 236.2998 463.8953

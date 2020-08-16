@@ -1,0 +1,4 @@
+# ZBar image004.jpg
+milliseconds = 0.104489803314209
+message = http://q-r.to/baf6RY
+730 250 634 42 423 162 521 374

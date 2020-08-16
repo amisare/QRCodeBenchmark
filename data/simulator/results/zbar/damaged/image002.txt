@@ -1,0 +1,4 @@
+# ZBar image002.jpg
+milliseconds = 0.05452799797058105
+message = kooTEK
+693 211 550 210 549 352 697 354

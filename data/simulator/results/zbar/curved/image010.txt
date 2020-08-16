@@ -1,0 +1,4 @@
+# ZBar image010.jpg
+milliseconds = 0.1207280158996582
+message = http://www.sunmaid.com/book
+284 553 265 677 389 706 415 577

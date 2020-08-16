@@ -1,0 +1,4 @@
+# ZBar image021.jpg
+milliseconds = 0.1720011234283447
+message = http://www.teagoetz.com/
+529 120 512 56 432 88 456 144

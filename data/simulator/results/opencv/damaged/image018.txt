@@ -1,0 +1,4 @@
+# OpenCV image018.jpg
+milliseconds = 0.03499507904052734
+message = PETERABELES041.PremierSubaruFremont.com
+463 615 178.0166 616.5449 174.9715 332.3357 458 331

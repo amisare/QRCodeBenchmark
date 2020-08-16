@@ -1,0 +1,4 @@
+# ZBar image029.jpg
+milliseconds = 0.05352020263671875
+message = https://goo.gl/forms/ofwmcoJn1qN6HPb72
+244 124 239 313 441 316 462 137

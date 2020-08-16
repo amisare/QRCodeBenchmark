@@ -1,0 +1,4 @@
+# MLKit image020.png
+milliseconds = 0.04044604301452637
+message = MAILTO:name@myemail.com
+32 32 264 32 264 264 32 264

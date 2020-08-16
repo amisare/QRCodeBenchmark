@@ -1,0 +1,6 @@
+# ZBar image045.jpg
+milliseconds = 0.09836292266845703
+message = http://www.boschautoparts.com/qr/icon.aspx
+547 584 646 454 538 353 430 488
+message = http://www.boschautoparts.com/qr/icon.aspx
+214 299 283 169 150 99 80 231

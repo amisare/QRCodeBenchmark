@@ -1,0 +1,4 @@
+# OpenCV image057.jpg
+milliseconds = 0.1048121452331543
+message = {"lastNode":"OAK5","cids":{"pkey":"180410194824527404022960201AZ"}}
+283 128 623 310 465.1849 654.7841 105 482

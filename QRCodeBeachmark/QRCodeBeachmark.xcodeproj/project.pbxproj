@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C46144BD3E3B6EEFA1F799 /* Pods_QRCodeBeachmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9D7137D37AB64AEBD9CA74 /* Pods_QRCodeBeachmark.framework */; };
+		673EFE6A24E94B6A00B4FD0B /* qrcodes in Resources */ = {isa = PBXBuildFile; fileRef = 673EFE6924E94B6A00B4FD0B /* qrcodes */; };
+		673EFE7324E94C1700B4FD0B /* BMZBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 673EFE7224E94C1700B4FD0B /* BMZBar.m */; };
+		673EFE7724E94C7B00B4FD0B /* BMZXing.m in Sources */ = {isa = PBXBuildFile; fileRef = 673EFE7624E94C7B00B4FD0B /* BMZXing.m */; };
+		673EFE7A24E94C8400B4FD0B /* BMMLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 673EFE7924E94C8400B4FD0B /* BMMLKit.m */; };
+		673EFE7D24E94C9000B4FD0B /* BMCIDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 673EFE7C24E94C9000B4FD0B /* BMCIDetector.m */; };
+		673EFE8024E94C9900B4FD0B /* BMCoreML.m in Sources */ = {isa = PBXBuildFile; fileRef = 673EFE7F24E94C9900B4FD0B /* BMCoreML.m */; };
+		673EFE8624E9926C00B4FD0B /* UIImage+scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 673EFE8524E9926C00B4FD0B /* UIImage+scale.m */; };
+		676C561324E8F8E100699243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676C561224E8F8E100699243 /* AppDelegate.m */; };
+		676C561624E8F8E100699243 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676C561524E8F8E100699243 /* SceneDelegate.m */; };
+		676C561924E8F8E100699243 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 676C561824E8F8E100699243 /* ViewController.mm */; };
+		676C561C24E8F8E100699243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676C561A24E8F8E100699243 /* Main.storyboard */; };
+		676C561E24E8F8E400699243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676C561D24E8F8E400699243 /* Assets.xcassets */; };
+		676C562124E8F8E400699243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676C561F24E8F8E400699243 /* LaunchScreen.storyboard */; };
+		676C562424E8F8E400699243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676C562324E8F8E400699243 /* main.m */; };
+		676C562E24E8F8E400699243 /* QRCodeBeachmarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676C562D24E8F8E400699243 /* QRCodeBeachmarkTests.m */; };
+		676C563924E8F8E400699243 /* QRCodeBeachmarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676C563824E8F8E400699243 /* QRCodeBeachmarkUITests.m */; };
+		676C564E24E9103400699243 /* BMFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 676C564D24E9103400699243 /* BMFileUtils.m */; };
+		676C565224E9130100699243 /* BMOpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 676C565124E9130100699243 /* BMOpenCV.mm */; };
+		FB8EC5DB158B96B76D36A885 /* Pods_QRCodeBeachmark_QRCodeBeachmarkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0945076D92436F7CF5152AC /* Pods_QRCodeBeachmark_QRCodeBeachmarkUITests.framework */; };
+		FE56F547012637C3F4227C9B /* Pods_QRCodeBeachmarkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01D0A38C214D415D805FF44 /* Pods_QRCodeBeachmarkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		676C562A24E8F8E400699243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676C560624E8F8E100699243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676C560D24E8F8E100699243;
+			remoteInfo = QRCodeBeachmark;
+		};
+		676C563524E8F8E400699243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676C560624E8F8E100699243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676C560D24E8F8E100699243;
+			remoteInfo = QRCodeBeachmark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C8015DC85C973CB419851E1 /* Pods-QRCodeBeachmark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeBeachmark.debug.xcconfig"; path = "Target Support Files/Pods-QRCodeBeachmark/Pods-QRCodeBeachmark.debug.xcconfig"; sourceTree = "<group>"; };
+		3006B32A508DFA0080FFED5B /* Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.debug.xcconfig"; path = "Target Support Files/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D450BA950A27170ABDC253E /* Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.release.xcconfig"; path = "Target Support Files/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4AA8849704A38D0DDF9B4A74 /* Pods-QRCodeBeachmarkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeBeachmarkTests.release.xcconfig"; path = "Target Support Files/Pods-QRCodeBeachmarkTests/Pods-QRCodeBeachmarkTests.release.xcconfig"; sourceTree = "<group>"; };
+		52347E96CBBD84789D940BA5 /* Pods-QRCodeBeachmarkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeBeachmarkTests.debug.xcconfig"; path = "Target Support Files/Pods-QRCodeBeachmarkTests/Pods-QRCodeBeachmarkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		673EFE6924E94B6A00B4FD0B /* qrcodes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = qrcodes; sourceTree = "<group>"; };
+		673EFE7124E94C1700B4FD0B /* BMZBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMZBar.h; sourceTree = "<group>"; };
+		673EFE7224E94C1700B4FD0B /* BMZBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMZBar.m; sourceTree = "<group>"; };
+		673EFE7424E94C2800B4FD0B /* BMProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMProtocol.h; sourceTree = "<group>"; };
+		673EFE7524E94C7B00B4FD0B /* BMZXing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMZXing.h; sourceTree = "<group>"; };
+		673EFE7624E94C7B00B4FD0B /* BMZXing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMZXing.m; sourceTree = "<group>"; };
+		673EFE7824E94C8400B4FD0B /* BMMLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMMLKit.h; sourceTree = "<group>"; };
+		673EFE7924E94C8400B4FD0B /* BMMLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMMLKit.m; sourceTree = "<group>"; };
+		673EFE7B24E94C9000B4FD0B /* BMCIDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMCIDetector.h; sourceTree = "<group>"; };
+		673EFE7C24E94C9000B4FD0B /* BMCIDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMCIDetector.m; sourceTree = "<group>"; };
+		673EFE7E24E94C9900B4FD0B /* BMCoreML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMCoreML.h; sourceTree = "<group>"; };
+		673EFE7F24E94C9900B4FD0B /* BMCoreML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMCoreML.m; sourceTree = "<group>"; };
+		673EFE8424E9926C00B4FD0B /* UIImage+scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+scale.h"; sourceTree = "<group>"; };
+		673EFE8524E9926C00B4FD0B /* UIImage+scale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+scale.m"; sourceTree = "<group>"; };
+		676C560E24E8F8E100699243 /* QRCodeBeachmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeBeachmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		676C561124E8F8E100699243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		676C561224E8F8E100699243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		676C561424E8F8E100699243 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		676C561524E8F8E100699243 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		676C561724E8F8E100699243 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		676C561824E8F8E100699243 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		676C561B24E8F8E100699243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		676C561D24E8F8E400699243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		676C562024E8F8E400699243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		676C562224E8F8E400699243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676C562324E8F8E400699243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		676C562924E8F8E400699243 /* QRCodeBeachmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeBeachmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676C562D24E8F8E400699243 /* QRCodeBeachmarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeBeachmarkTests.m; sourceTree = "<group>"; };
+		676C562F24E8F8E400699243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676C563424E8F8E400699243 /* QRCodeBeachmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeBeachmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676C563824E8F8E400699243 /* QRCodeBeachmarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeBeachmarkUITests.m; sourceTree = "<group>"; };
+		676C563A24E8F8E400699243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676C564C24E9103400699243 /* BMFileUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMFileUtils.h; sourceTree = "<group>"; };
+		676C564D24E9103400699243 /* BMFileUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMFileUtils.m; sourceTree = "<group>"; };
+		676C565024E9130100699243 /* BMOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMOpenCV.h; sourceTree = "<group>"; };
+		676C565124E9130100699243 /* BMOpenCV.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BMOpenCV.mm; sourceTree = "<group>"; };
+		742845CA3F05987E8E2DCD79 /* Pods-QRCodeBeachmark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeBeachmark.release.xcconfig"; path = "Target Support Files/Pods-QRCodeBeachmark/Pods-QRCodeBeachmark.release.xcconfig"; sourceTree = "<group>"; };
+		A0945076D92436F7CF5152AC /* Pods_QRCodeBeachmark_QRCodeBeachmarkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeBeachmark_QRCodeBeachmarkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01D0A38C214D415D805FF44 /* Pods_QRCodeBeachmarkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeBeachmarkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9D7137D37AB64AEBD9CA74 /* Pods_QRCodeBeachmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeBeachmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676C560B24E8F8E100699243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C46144BD3E3B6EEFA1F799 /* Pods_QRCodeBeachmark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676C562624E8F8E400699243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE56F547012637C3F4227C9B /* Pods_QRCodeBeachmarkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676C563124E8F8E400699243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8EC5DB158B96B76D36A885 /* Pods_QRCodeBeachmark_QRCodeBeachmarkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		673EFE6B24E94B9700B4FD0B /* Beachmark */ = {
+			isa = PBXGroup;
+			children = (
+				673EFE7424E94C2800B4FD0B /* BMProtocol.h */,
+				673EFE7024E94BF000B4FD0B /* CoreML */,
+				673EFE6E24E94BE000B4FD0B /* MLKit */,
+				673EFE6F24E94BE600B4FD0B /* CIDetector */,
+				673EFE6D24E94BD900B4FD0B /* ZXing */,
+				673EFE6C24E94BD200B4FD0B /* ZBar */,
+				676C564F24E912C400699243 /* OpenCV */,
+			);
+			path = Beachmark;
+			sourceTree = "<group>";
+		};
+		673EFE6C24E94BD200B4FD0B /* ZBar */ = {
+			isa = PBXGroup;
+			children = (
+				673EFE7124E94C1700B4FD0B /* BMZBar.h */,
+				673EFE7224E94C1700B4FD0B /* BMZBar.m */,
+			);
+			path = ZBar;
+			sourceTree = "<group>";
+		};
+		673EFE6D24E94BD900B4FD0B /* ZXing */ = {
+			isa = PBXGroup;
+			children = (
+				673EFE7524E94C7B00B4FD0B /* BMZXing.h */,
+				673EFE7624E94C7B00B4FD0B /* BMZXing.m */,
+			);
+			path = ZXing;
+			sourceTree = "<group>";
+		};
+		673EFE6E24E94BE000B4FD0B /* MLKit */ = {
+			isa = PBXGroup;
+			children = (
+				673EFE7824E94C8400B4FD0B /* BMMLKit.h */,
+				673EFE7924E94C8400B4FD0B /* BMMLKit.m */,
+			);
+			path = MLKit;
+			sourceTree = "<group>";
+		};
+		673EFE6F24E94BE600B4FD0B /* CIDetector */ = {
+			isa = PBXGroup;
+			children = (
+				673EFE7B24E94C9000B4FD0B /* BMCIDetector.h */,
+				673EFE7C24E94C9000B4FD0B /* BMCIDetector.m */,
+			);
+			path = CIDetector;
+			sourceTree = "<group>";
+		};
+		673EFE7024E94BF000B4FD0B /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				673EFE7E24E94C9900B4FD0B /* BMCoreML.h */,
+				673EFE7F24E94C9900B4FD0B /* BMCoreML.m */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		676C560524E8F8E100699243 = {
+			isa = PBXGroup;
+			children = (
+				676C561024E8F8E100699243 /* QRCodeBeachmark */,
+				676C562C24E8F8E400699243 /* QRCodeBeachmarkTests */,
+				676C563724E8F8E400699243 /* QRCodeBeachmarkUITests */,
+				676C560F24E8F8E100699243 /* Products */,
+				DF9C011FD3626B73E20AB2C7 /* Pods */,
+				8AB54C6412CD6EC905CF2B5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		676C560F24E8F8E100699243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				676C560E24E8F8E100699243 /* QRCodeBeachmark.app */,
+				676C562924E8F8E400699243 /* QRCodeBeachmarkTests.xctest */,
+				676C563424E8F8E400699243 /* QRCodeBeachmarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676C561024E8F8E100699243 /* QRCodeBeachmark */ = {
+			isa = PBXGroup;
+			children = (
+				673EFE6924E94B6A00B4FD0B /* qrcodes */,
+				673EFE6B24E94B9700B4FD0B /* Beachmark */,
+				676C564B24E9101300699243 /* Tools */,
+				676C561124E8F8E100699243 /* AppDelegate.h */,
+				676C561224E8F8E100699243 /* AppDelegate.m */,
+				676C561424E8F8E100699243 /* SceneDelegate.h */,
+				676C561524E8F8E100699243 /* SceneDelegate.m */,
+				676C561724E8F8E100699243 /* ViewController.h */,
+				676C561824E8F8E100699243 /* ViewController.mm */,
+				676C561A24E8F8E100699243 /* Main.storyboard */,
+				676C561D24E8F8E400699243 /* Assets.xcassets */,
+				676C561F24E8F8E400699243 /* LaunchScreen.storyboard */,
+				676C562224E8F8E400699243 /* Info.plist */,
+				676C562324E8F8E400699243 /* main.m */,
+			);
+			path = QRCodeBeachmark;
+			sourceTree = "<group>";
+		};
+		676C562C24E8F8E400699243 /* QRCodeBeachmarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				676C562D24E8F8E400699243 /* QRCodeBeachmarkTests.m */,
+				676C562F24E8F8E400699243 /* Info.plist */,
+			);
+			path = QRCodeBeachmarkTests;
+			sourceTree = "<group>";
+		};
+		676C563724E8F8E400699243 /* QRCodeBeachmarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				676C563824E8F8E400699243 /* QRCodeBeachmarkUITests.m */,
+				676C563A24E8F8E400699243 /* Info.plist */,
+			);
+			path = QRCodeBeachmarkUITests;
+			sourceTree = "<group>";
+		};
+		676C564B24E9101300699243 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				676C564C24E9103400699243 /* BMFileUtils.h */,
+				676C564D24E9103400699243 /* BMFileUtils.m */,
+				673EFE8424E9926C00B4FD0B /* UIImage+scale.h */,
+				673EFE8524E9926C00B4FD0B /* UIImage+scale.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		676C564F24E912C400699243 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				676C565024E9130100699243 /* BMOpenCV.h */,
+				676C565124E9130100699243 /* BMOpenCV.mm */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		8AB54C6412CD6EC905CF2B5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9D7137D37AB64AEBD9CA74 /* Pods_QRCodeBeachmark.framework */,
+				A0945076D92436F7CF5152AC /* Pods_QRCodeBeachmark_QRCodeBeachmarkUITests.framework */,
+				F01D0A38C214D415D805FF44 /* Pods_QRCodeBeachmarkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF9C011FD3626B73E20AB2C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C8015DC85C973CB419851E1 /* Pods-QRCodeBeachmark.debug.xcconfig */,
+				742845CA3F05987E8E2DCD79 /* Pods-QRCodeBeachmark.release.xcconfig */,
+				3006B32A508DFA0080FFED5B /* Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.debug.xcconfig */,
+				3D450BA950A27170ABDC253E /* Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.release.xcconfig */,
+				52347E96CBBD84789D940BA5 /* Pods-QRCodeBeachmarkTests.debug.xcconfig */,
+				4AA8849704A38D0DDF9B4A74 /* Pods-QRCodeBeachmarkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676C560D24E8F8E100699243 /* QRCodeBeachmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676C563D24E8F8E400699243 /* Build configuration list for PBXNativeTarget "QRCodeBeachmark" */;
+			buildPhases = (
+				47BB15F1F93578E814FAB48C /* [CP] Check Pods Manifest.lock */,
+				676C560A24E8F8E100699243 /* Sources */,
+				676C560B24E8F8E100699243 /* Frameworks */,
+				676C560C24E8F8E100699243 /* Resources */,
+				1C3A91D416A6A970DA97289D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeBeachmark;
+			productName = QRCodeBeachmark;
+			productReference = 676C560E24E8F8E100699243 /* QRCodeBeachmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		676C562824E8F8E400699243 /* QRCodeBeachmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676C564024E8F8E400699243 /* Build configuration list for PBXNativeTarget "QRCodeBeachmarkTests" */;
+			buildPhases = (
+				9931F3611205C2BF9F5E7D80 /* [CP] Check Pods Manifest.lock */,
+				676C562524E8F8E400699243 /* Sources */,
+				676C562624E8F8E400699243 /* Frameworks */,
+				676C562724E8F8E400699243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676C562B24E8F8E400699243 /* PBXTargetDependency */,
+			);
+			name = QRCodeBeachmarkTests;
+			productName = QRCodeBeachmarkTests;
+			productReference = 676C562924E8F8E400699243 /* QRCodeBeachmarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		676C563324E8F8E400699243 /* QRCodeBeachmarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676C564324E8F8E400699243 /* Build configuration list for PBXNativeTarget "QRCodeBeachmarkUITests" */;
+			buildPhases = (
+				F4A10DE6CD5FD3723FF029AC /* [CP] Check Pods Manifest.lock */,
+				676C563024E8F8E400699243 /* Sources */,
+				676C563124E8F8E400699243 /* Frameworks */,
+				676C563224E8F8E400699243 /* Resources */,
+				D18A97FA411130CC4D9C2FD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676C563624E8F8E400699243 /* PBXTargetDependency */,
+			);
+			name = QRCodeBeachmarkUITests;
+			productName = QRCodeBeachmarkUITests;
+			productReference = 676C563424E8F8E400699243 /* QRCodeBeachmarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676C560624E8F8E100699243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = GuHaiJun;
+				TargetAttributes = {
+					676C560D24E8F8E100699243 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					676C562824E8F8E400699243 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 676C560D24E8F8E100699243;
+					};
+					676C563324E8F8E400699243 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 676C560D24E8F8E100699243;
+					};
+				};
+			};
+			buildConfigurationList = 676C560924E8F8E100699243 /* Build configuration list for PBXProject "QRCodeBeachmark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676C560524E8F8E100699243;
+			productRefGroup = 676C560F24E8F8E100699243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676C560D24E8F8E100699243 /* QRCodeBeachmark */,
+				676C562824E8F8E400699243 /* QRCodeBeachmarkTests */,
+				676C563324E8F8E400699243 /* QRCodeBeachmarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676C560C24E8F8E100699243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673EFE6A24E94B6A00B4FD0B /* qrcodes in Resources */,
+				676C562124E8F8E400699243 /* LaunchScreen.storyboard in Resources */,
+				676C561E24E8F8E400699243 /* Assets.xcassets in Resources */,
+				676C561C24E8F8E100699243 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676C562724E8F8E400699243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676C563224E8F8E400699243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C3A91D416A6A970DA97289D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCodeBeachmark/Pods-QRCodeBeachmark-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCodeBeachmark/Pods-QRCodeBeachmark-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRCodeBeachmark/Pods-QRCodeBeachmark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47BB15F1F93578E814FAB48C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRCodeBeachmark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9931F3611205C2BF9F5E7D80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRCodeBeachmarkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18A97FA411130CC4D9C2FD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A10DE6CD5FD3723FF029AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRCodeBeachmark-QRCodeBeachmarkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676C560A24E8F8E100699243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676C564E24E9103400699243 /* BMFileUtils.m in Sources */,
+				676C565224E9130100699243 /* BMOpenCV.mm in Sources */,
+				673EFE7324E94C1700B4FD0B /* BMZBar.m in Sources */,
+				673EFE7724E94C7B00B4FD0B /* BMZXing.m in Sources */,
+				676C561924E8F8E100699243 /* ViewController.mm in Sources */,
+				676C561324E8F8E100699243 /* AppDelegate.m in Sources */,
+				673EFE8624E9926C00B4FD0B /* UIImage+scale.m in Sources */,
+				673EFE7D24E94C9000B4FD0B /* BMCIDetector.m in Sources */,
+				676C562424E8F8E400699243 /* main.m in Sources */,
+				673EFE7A24E94C8400B4FD0B /* BMMLKit.m in Sources */,
+				676C561624E8F8E100699243 /* SceneDelegate.m in Sources */,
+				673EFE8024E94C9900B4FD0B /* BMCoreML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676C562524E8F8E400699243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676C562E24E8F8E400699243 /* QRCodeBeachmarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676C563024E8F8E400699243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676C563924E8F8E400699243 /* QRCodeBeachmarkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		676C562B24E8F8E400699243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676C560D24E8F8E100699243 /* QRCodeBeachmark */;
+			targetProxy = 676C562A24E8F8E400699243 /* PBXContainerItemProxy */;
+		};
+		676C563624E8F8E400699243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676C560D24E8F8E100699243 /* QRCodeBeachmark */;
+			targetProxy = 676C563524E8F8E400699243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		676C561A24E8F8E100699243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676C561B24E8F8E100699243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		676C561F24E8F8E400699243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676C562024E8F8E400699243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		676C563B24E8F8E400699243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		676C563C24E8F8E400699243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		676C563E24E8F8E400699243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8015DC85C973CB419851E1 /* Pods-QRCodeBeachmark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5YFAXCM3;
+				INFOPLIST_FILE = QRCodeBeachmark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.QRCodeBeachmark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		676C563F24E8F8E400699243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742845CA3F05987E8E2DCD79 /* Pods-QRCodeBeachmark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5YFAXCM3;
+				INFOPLIST_FILE = QRCodeBeachmark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.QRCodeBeachmark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		676C564124E8F8E400699243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52347E96CBBD84789D940BA5 /* Pods-QRCodeBeachmarkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QRCodeBeachmarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.QRCodeBeachmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeBeachmark.app/QRCodeBeachmark";
+			};
+			name = Debug;
+		};
+		676C564224E8F8E400699243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA8849704A38D0DDF9B4A74 /* Pods-QRCodeBeachmarkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QRCodeBeachmarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.QRCodeBeachmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeBeachmark.app/QRCodeBeachmark";
+			};
+			name = Release;
+		};
+		676C564424E8F8E400699243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3006B32A508DFA0080FFED5B /* Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QRCodeBeachmarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.QRCodeBeachmarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRCodeBeachmark;
+			};
+			name = Debug;
+		};
+		676C564524E8F8E400699243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D450BA950A27170ABDC253E /* Pods-QRCodeBeachmark-QRCodeBeachmarkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QRCodeBeachmarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nn.QRCodeBeachmarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRCodeBeachmark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676C560924E8F8E100699243 /* Build configuration list for PBXProject "QRCodeBeachmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676C563B24E8F8E400699243 /* Debug */,
+				676C563C24E8F8E400699243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676C563D24E8F8E400699243 /* Build configuration list for PBXNativeTarget "QRCodeBeachmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676C563E24E8F8E400699243 /* Debug */,
+				676C563F24E8F8E400699243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676C564024E8F8E400699243 /* Build configuration list for PBXNativeTarget "QRCodeBeachmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676C564124E8F8E400699243 /* Debug */,
+				676C564224E8F8E400699243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676C564324E8F8E400699243 /* Build configuration list for PBXNativeTarget "QRCodeBeachmarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676C564424E8F8E400699243 /* Debug */,
+				676C564524E8F8E400699243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 676C560624E8F8E100699243 /* Project object */;
+}

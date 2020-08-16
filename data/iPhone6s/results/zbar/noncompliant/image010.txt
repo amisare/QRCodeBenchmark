@@ -1,0 +1,4 @@
+# ZBar image010.jpg
+milliseconds = 0.09995698928833008
+message = http://q-r.to/baf6RY
+484 165 420 27 278 108 345 247

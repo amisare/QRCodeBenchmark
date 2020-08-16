@@ -1,0 +1,4 @@
+# OpenCV image008.jpg
+milliseconds = 0.04866600036621094
+message = http://albtsn.com/ugtezn8
+231.2864 228.6327 433 183 510.6056 384.6217 297 442

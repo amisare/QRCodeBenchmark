@@ -1,0 +1,8 @@
+# ZBar image004.jpg
+milliseconds = 0.04488611221313477
+message = kooTEK
+410 31 378 129 479 161 513 59
+message = are
+355 197 321 301 426 334 459 230
+message = Enough
+298 372 262 483 370 513 404 405

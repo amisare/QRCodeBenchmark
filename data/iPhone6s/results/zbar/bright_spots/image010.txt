@@ -1,0 +1,4 @@
+# ZBar image010.jpg
+milliseconds = 0.2346968650817871
+message = Version 2 QR Code Test Image
+325 382 322 450 388 453 393 386

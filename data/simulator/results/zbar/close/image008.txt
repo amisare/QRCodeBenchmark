@@ -1,0 +1,4 @@
+# ZBar image008.jpg
+milliseconds = 0.1092538833618164
+message = VERSION 1 6CM
+55 275 53 922 737 929 691 243

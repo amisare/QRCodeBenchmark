@@ -1,0 +1,4 @@
+# ZBar image049.jpg
+milliseconds = 0.2332561016082764
+message = http://www.youtube.com/watch?v=7qa6Bho4OyM&feature=share&list=PLk13TE2t32tgRCVo0q8tTB1CyZyMDQCNH&index=10
+81 695 530 802 635 355 189 245

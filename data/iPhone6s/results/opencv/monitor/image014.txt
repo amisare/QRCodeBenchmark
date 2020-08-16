@@ -1,0 +1,4 @@
+# OpenCV image014.jpg
+milliseconds = 0.07092595100402832
+message = This is a computer generated QR Code
+89 74 683 109 615.3953 638.0887 107 618

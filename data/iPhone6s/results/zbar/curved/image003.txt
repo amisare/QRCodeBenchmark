@@ -1,0 +1,4 @@
+# ZBar image003.png
+milliseconds = 0.1003470420837402
+message = https://www.facebook.com/elyucateco
+210 81 200 185 300 198 314 94

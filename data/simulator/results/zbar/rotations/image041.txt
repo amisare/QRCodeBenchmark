@@ -1,0 +1,4 @@
+# ZBar image041.jpg
+milliseconds = 0.1017699241638184
+message = Version 2 QR Code Test Image
+381 649 276 733 370 844 479 743

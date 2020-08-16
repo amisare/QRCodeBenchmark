@@ -1,0 +1,4 @@
+# OpenCV image054.jpg
+milliseconds = 0.09543609619140625
+message = http://www.bestekmall.com/
+170 83 568 35 626.6207 429.3665 225.2357 503.6971

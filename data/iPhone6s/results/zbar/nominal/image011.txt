@@ -1,0 +1,4 @@
+# ZBar image011.jpg
+milliseconds = 0.1339538097381592
+message = http://www.facebook.com/LangersJuice
+112 195 170 323 303 278 263 153

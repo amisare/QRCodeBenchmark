@@ -1,0 +1,4 @@
+# ZBar image016.jpg
+milliseconds = 0.07409405708312988
+message = http://www.lonelyplanet.com/
+308 89 244 187 429 207 464 95

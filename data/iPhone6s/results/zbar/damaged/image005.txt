@@ -1,0 +1,4 @@
+# ZBar image005.jpg
+milliseconds = 0.173220157623291
+message = amzn.to/socialqr
+217 223 188 455 433 486 457 254

@@ -1,0 +1,4 @@
+# ZBar image039.jpg
+milliseconds = 0.07237982749938965
+message = GH64-05708A
+307 309 310 406 406 403 403 307

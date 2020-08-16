@@ -1,0 +1,4 @@
+# OpenCV image020.jpg
+milliseconds = 0.04245805740356445
+message = http://www.teagoetz.com/
+500.6087 332.1304 311 378 243.4162 199.7764 459 141

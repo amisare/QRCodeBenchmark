@@ -1,0 +1,4 @@
+# ZBar image012.jpg
+milliseconds = 0.1671972274780273
+message = http://g.augme.com/1803
+564 227 458 231 461 335 568 333

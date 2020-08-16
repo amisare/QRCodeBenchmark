@@ -1,0 +1,4 @@
+# ZBar image033.jpg
+milliseconds = 0.1473488807678223
+message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
+309 458 319 548 409 537 398 448

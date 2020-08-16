@@ -1,0 +1,4 @@
+# ZBar image004.jpg
+milliseconds = 0.09377193450927734
+message = http://www.teagoetz.com/
+381 224 363 138 277 156 298 241

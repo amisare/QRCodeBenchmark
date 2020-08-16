@@ -1,0 +1,4 @@
+# ZBar image003.jpg
+milliseconds = 0.03625202178955078
+message = HTTPS://NUTS.COM/QR/retail_piece/51707477?sku=7030-01
+85 91 100 233 248 216 231 73

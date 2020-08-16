@@ -1,0 +1,6 @@
+# ZBar image003.jpg
+milliseconds = 0.04490518569946289
+message = are
+360 234 363 335 464 331 460 230
+message = kooTEK
+354 67 358 167 458 163 455 60

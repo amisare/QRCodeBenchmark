@@ -1,0 +1,6 @@
+# ZBar image001.jpg
+milliseconds = 0.06561517715454102
+message = http://q-r.to/baf6RY
+149 83 115 280 325 310 353 114
+message = http://q-r.to/bafD2I
+492 136 470 331 675 361 689 167

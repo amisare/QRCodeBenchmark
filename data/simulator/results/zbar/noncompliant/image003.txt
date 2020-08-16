@@ -1,0 +1,6 @@
+# ZBar image003.jpg
+milliseconds = 0.1642699241638184
+message = http://q-r.to/baf6RY
+699 266 606 68 404 161 493 359
+message = http://q-r.to/bafD2I
+346 428 257 224 49 319 133 523

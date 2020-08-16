@@ -1,0 +1,6 @@
+# ZBar image004.jpg
+milliseconds = 0.2186810970306396
+message = Version 2 QR Code Test Image
+432 721 422 893 596 913 607 737
+message = Version 1 QR
+522 432 521 580 674 583 674 431

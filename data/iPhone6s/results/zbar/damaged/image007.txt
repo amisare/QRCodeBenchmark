@@ -1,0 +1,4 @@
+# ZBar image007.jpg
+milliseconds = 0.118034839630127
+message = amzn.to/socialqr
+193 634 609 550 523 111 113 194

@@ -1,0 +1,4 @@
+# ZBar image030.jpg
+milliseconds = 0.1590428352355957
+message = http://goo.gl/ErBxV
+460 545 456 678 578 682 580 554

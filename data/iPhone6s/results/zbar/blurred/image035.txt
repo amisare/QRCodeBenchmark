@@ -1,0 +1,4 @@
+# ZBar image035.jpg
+milliseconds = 0.2241897583007812
+message = http://www.postalexperience.com/pos?mt=4&sc=840-5940-0244-002-00006-80522-02
+117 615 587 672 640 182 167 162

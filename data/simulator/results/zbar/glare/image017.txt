@@ -1,0 +1,4 @@
+# ZBar image017.jpg
+milliseconds = 0.1120259761810303
+message = http://uqr.me/acgovdehvehicles
+242 458 245 731 522 737 542 466

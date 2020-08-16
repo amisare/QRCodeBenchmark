@@ -1,0 +1,4 @@
+# ZBar image012.jpg
+milliseconds = 0.05283784866333008
+message = http://www.lonelyplanet.com/
+313 134 237 233 391 285 449 168

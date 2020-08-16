@@ -1,0 +1,4 @@
+# ZBar image019.jpg
+milliseconds = 0.2647280693054199
+message = PETERABELES041.PremierSubaruFremont.com
+520 711 567 437 310 398 254 658

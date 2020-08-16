@@ -1,0 +1,4 @@
+# ZBar image018.jpg
+milliseconds = 0.235316276550293
+message = PETERABELES041.PremierSubaruFremont.com
+465 619 461 330 180 335 176 617

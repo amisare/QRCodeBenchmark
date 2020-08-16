@@ -1,0 +1,4 @@
+# ZBar image006.jpg
+milliseconds = 0.1262640953063965
+message = http://www.radians.com/sizing_charts/
+255 172 126 590 550 708 658 296

@@ -1,0 +1,4 @@
+# ZBar image033.jpg
+milliseconds = 0.1074180603027344
+message = http://www.bestekmall.com/
+175 367 212 689 512 641 484 343

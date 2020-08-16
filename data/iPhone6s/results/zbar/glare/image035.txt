@@ -1,0 +1,4 @@
+# ZBar image035.jpg
+milliseconds = 0.227510929107666
+message = http://bit.ly/l5qo2F?r=qr
+335 477 336 581 443 575 446 472

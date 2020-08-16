@@ -1,0 +1,4 @@
+# ZBar image048.jpg
+milliseconds = 0.1139500141143799
+message = http://www.youtube.com/watch?v=7qa6Bho4OyM&feature=share&list=PLk13TE2t32tgRCVo0q8tTB1CyZyMDQCNH&index=10
+224 434 234 664 442 627 437 414

@@ -1,0 +1,4 @@
+# ZBar image018.jpg
+milliseconds = 0.1556298732757568
+message = VERSION 2 8CM
+568 174 47 304 184 842 712 679

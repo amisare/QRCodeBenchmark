@@ -1,0 +1,4 @@
+# ZBar image032.jpg
+milliseconds = 0.1560907363891602
+message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
+319 464 336 610 480 590 462 448

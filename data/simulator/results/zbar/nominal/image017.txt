@@ -1,0 +1,4 @@
+# ZBar image017.jpg
+milliseconds = 0.05540990829467773
+message = http://www.lonelyplanet.com/
+295 307 339 189 175 171 79 278

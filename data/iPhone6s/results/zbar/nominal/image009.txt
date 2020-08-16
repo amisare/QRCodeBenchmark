@@ -1,0 +1,4 @@
+# ZBar image009.jpg
+milliseconds = 0.131199836730957
+message = http://www.facebook.com/LangersJuice
+299 145 349 319 536 285 526 89

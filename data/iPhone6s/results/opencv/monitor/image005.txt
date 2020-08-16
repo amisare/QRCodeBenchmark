@@ -1,0 +1,4 @@
+# OpenCV image005.jpg
+milliseconds = 0.073760986328125
+message = This is a computer generated QR Code
+40 85 691 78 653.3616 662.9731 101 657

@@ -1,0 +1,4 @@
+# OpenCV image035.jpg
+milliseconds = 0.1043338775634766
+message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
+254.0552 469.4327 431.9637 453.8657 476.7955 619.7435 284.2308 647.2527
