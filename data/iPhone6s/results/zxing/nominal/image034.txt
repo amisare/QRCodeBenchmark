@@ -1,2 +1,4 @@
 # ZXing image034.jpg
-milliseconds = 30.86590766906738
+milliseconds = 42.59490966796875
+message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
+1263.9375 1962.84375 1248.1875 1628.15625 1578.9375 1618.3125 1561.21875 1915.59375

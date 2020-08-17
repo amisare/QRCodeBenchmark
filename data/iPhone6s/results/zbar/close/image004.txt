@@ -1,2 +1,2 @@
 # ZBar image004.jpg
-milliseconds = 290.565013885498
+milliseconds = 103.989839553833

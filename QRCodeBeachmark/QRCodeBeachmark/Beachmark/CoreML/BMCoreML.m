@@ -24,9 +24,14 @@
     [BMFileUtils enumerateAllImagesUsingBlock:^(NSString *imagePath, NSString *imageCategory, NSString *imageName) {
         
         @autoreleasepool {
-            UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+            UIImage *imageOrigin = [UIImage imageWithContentsOfFile:imagePath];
+            __block UIImage *image = imageOrigin;
+            __block CGFloat scale = 1.0;
             // scale size
-            image = [image bm_imageScaleWithMaxSize:CGSizeMake(768, 1008)];
+            [imageOrigin bm_imageScaleWithMaxSize:CGSizeMake(768, 1008) complete:^(UIImage *_image, CGFloat _scale) {
+                image = _image;
+                scale = _scale;
+            }];
             
             NSTimeInterval tick = [[NSDate date] timeIntervalSince1970];
             VNDetectBarcodesRequest *request = [[VNDetectBarcodesRequest alloc] initWithCompletionHandler:^(VNRequest * _Nonnull request, NSError * _Nullable error) {
@@ -45,15 +50,14 @@
                             [beachmark addObject:message];
 
                             NSMutableArray *bboxArray = [NSMutableArray new];
-                            [bboxArray addObject:@(result.topLeft.x)];
-                            [bboxArray addObject:@(result.topLeft.y)];
-                            [bboxArray addObject:@(result.topRight.x)];
-                            [bboxArray addObject:@(result.topRight.y)];
-                            [bboxArray addObject:@(result.bottomRight.x)];
-                            [bboxArray addObject:@(result.bottomRight.y)];
-                            [bboxArray addObject:@(result.bottomLeft.x)];
-                            [bboxArray addObject:@(result.bottomLeft.y)];
-                            
+                            [bboxArray addObject:@(result.topLeft.x * image.size.width / scale)];
+                            [bboxArray addObject:@(result.topLeft.y * image.size.height / scale)];
+                            [bboxArray addObject:@(result.topRight.x * image.size.width / scale)];
+                            [bboxArray addObject:@(result.topRight.y * image.size.height / scale)];
+                            [bboxArray addObject:@(result.bottomRight.x * image.size.width / scale)];
+                            [bboxArray addObject:@(result.bottomRight.y * image.size.height / scale)];
+                            [bboxArray addObject:@(result.bottomLeft.x * image.size.width / scale)];
+                            [bboxArray addObject:@(result.bottomLeft.y * image.size.height / scale)];
                             NSString *bboxString = [bboxArray componentsJoinedByString:@" "];
                             [beachmark addObject:bboxString];
                         }

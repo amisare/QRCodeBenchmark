@@ -1,0 +1,4 @@
+# Quirc image006.jpg
+milliseconds = 30.55691719055176
+message = https://www.surveymonkey.com/s/TheClubatLAS_T3
+1370.25 2130.1875 2012.0625 2165.625 1953 2736.5625 1350.5625 2697.1875

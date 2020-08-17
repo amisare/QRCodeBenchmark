@@ -1,0 +1,6 @@
+# Quirc image046.jpg
+milliseconds = 16.27492904663086
+message = http://www.boschautoparts.com/qr/icon.aspx
+734.34375 612.28125 706.78125 466.59375 852.46875 441 878.0625 588.65625
+message = http://www.boschautoparts.com/qr/icon.aspx
+726.46875 1055.25 742.21875 899.71875 903.65625 903.65625 887.90625 1057.21875

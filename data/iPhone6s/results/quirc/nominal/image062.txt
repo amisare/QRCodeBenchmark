@@ -1,0 +1,4 @@
+# Quirc image062.jpg
+milliseconds = 15.93995094299316
+message = http://www.postalexperience.com/pos?mt=4&sc=840-5940-0244-002-00006-80522-02
+84 184 362 182 416 411 120 423

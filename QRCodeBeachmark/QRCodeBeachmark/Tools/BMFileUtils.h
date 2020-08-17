@@ -11,6 +11,7 @@
 @interface BMFileUtils : NSObject
 
 + (NSString *)resultsOpenCVPath;
++ (NSString *)resultsQuircPath;
 + (NSString *)resultsZBarPath;
 + (NSString *)resultsZXingPath;
 + (NSString *)resultsCIDetectorPath;

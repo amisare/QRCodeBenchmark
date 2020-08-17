@@ -1,4 +1,4 @@
 # MLKit image020.png
-milliseconds = 74.63693618774414
+milliseconds = 49.31497573852539
 message = MAILTO:name@myemail.com
 32 32 264 32 264 264 32 264

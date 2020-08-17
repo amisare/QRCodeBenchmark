@@ -1,0 +1,2 @@
+# Quirc image010.jpg
+milliseconds = 11.12699508666992

@@ -1,2 +1,4 @@
 # ZXing image002.png
-milliseconds = 21.12603187561035
+milliseconds = 19.46520805358887
+message = https://www.facebook.com/elyucateco
+261.5 211 267 138 340.5 143.5 325.5 206.5

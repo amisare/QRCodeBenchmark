@@ -19,6 +19,10 @@
     return [[self resultsPath] stringByAppendingPathComponent:@"opencv"];
 }
 
++ (NSString *)resultsQuircPath {
+    return [[self resultsPath] stringByAppendingPathComponent:@"quirc"];
+}
+
 + (NSString *)resultsZBarPath {
     return [[self resultsPath] stringByAppendingPathComponent:@"zbar"];
 }
@@ -88,9 +92,15 @@
     NSFileManager *fmgr = [NSFileManager defaultManager];
     NSString *detectionSourcePath = [self detectionSourcePath];
     NSArray<NSString *> *imageCategories = [fmgr contentsOfDirectoryAtPath:detectionSourcePath error:nil];
+    imageCategories = [imageCategories sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        return [obj1 compare:obj2 options:0];
+    }];
     for (NSString *_imageCategory in imageCategories) {
         NSString *imagesPath = [detectionSourcePath stringByAppendingPathComponent:_imageCategory];
         NSArray<NSString*> *imagePaths = [fmgr contentsOfDirectoryAtPath:imagesPath error:nil];
+        imagePaths = [imagePaths sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+            return [obj1 compare:obj2 options:0];
+        }];
         for (NSString *_imagePath in imagePaths) {
             if ([_imagePath hasSuffix:@".jpg"] || [_imagePath hasSuffix:@".png"]) {
                 block([imagesPath stringByAppendingPathComponent:_imagePath], _imageCategory, _imagePath);

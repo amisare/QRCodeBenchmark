@@ -1,2 +1,4 @@
 # ZXing image047.jpg
-milliseconds = 31.01396560668945
+milliseconds = 20.45679092407227
+message = http://www.boschautoparts.com/qr/icon.aspx
+677.7421875 389.3203125 586.6875 522.2109375 447.890625 438.046875 547.3125 330.75

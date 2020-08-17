@@ -1,2 +1,2 @@
 # CIDetector image016.jpg
-milliseconds = 26.7031192779541
+milliseconds = 23.42081069946289

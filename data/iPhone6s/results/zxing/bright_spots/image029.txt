@@ -1,2 +1,4 @@
 # ZXing image029.jpg
-milliseconds = 44.60477828979492
+milliseconds = 44.25501823425293
+message = Version 2 QR Code Test Image
+499.5 680.5 503 610 576 614 560.5 672

@@ -1,0 +1,4 @@
+# Quirc image032.jpg
+milliseconds = 18.38493347167969
+message = VERSION 1 6CM
+423 195 709 571 325 879 23 476

@@ -1,2 +1,4 @@
 # ZXing image007.jpg
-milliseconds = 50.68707466125488
+milliseconds = 53.79724502563477
+message = https://www.surveymonkey.com/s/TheClubatLAS_T3
+357.5 659.5 361 551.5 482 559 458 652

@@ -1,2 +1,4 @@
 # ZXing image014.jpg
-milliseconds = 31.5091609954834
+milliseconds = 23.50687980651855
+message = http://flydulles.com/survey
+152 249 152 192 202 195.5 193.25 242

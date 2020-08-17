@@ -21,12 +21,20 @@
     [BMFileUtils enumerateAllImagesUsingBlock:^(NSString *imagePath, NSString *imageCategory, NSString *imageName) {
         
         @autoreleasepool {
-            ZBarImageScanner *scanner = [ZBarImageScanner new];
-            [scanner setSymbology:ZBAR_QRCODE config:ZBAR_CFG_ENABLE to:1];
-            
-            UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+            UIImage *imageOrigin = [UIImage imageWithContentsOfFile:imagePath];
+            __block UIImage *image = imageOrigin;
+            __block CGFloat scale = 1.0;
             // scale size
-            image = [image bm_imageScaleWithMaxSize:CGSizeMake(768, 1008)];
+            [imageOrigin bm_imageScaleWithMaxSize:CGSizeMake(768, 1008) complete:^(UIImage *_image, CGFloat _scale) {
+                image = _image;
+                scale = _scale;
+            }];
+            
+            ZBarImageScanner *scanner = [ZBarImageScanner new];
+            // disable all
+            [scanner setSymbology:ZBAR_NONE config:ZBAR_CFG_ENABLE to:0];
+            // enable qr
+            [scanner setSymbology:ZBAR_QRCODE config:ZBAR_CFG_ENABLE to:1];
             
             NSTimeInterval tick = [[NSDate date] timeIntervalSince1970];
             ZBarImage *zbar_image = [[ZBarImage alloc] initWithCGImage:image.CGImage];
@@ -39,17 +47,18 @@
             
             if (result > 0) {
                 for (ZBarSymbol *result in scanner.results) {
-                    // skip error result
+                    // skip incorrect result
                     if (zbar_symbol_get_loc_size(result.zbarSymbol) != 4) {
                         continue;
                     }
                     NSString *message = [@"message = " stringByAppendingString:result.data];
                     message = [message stringByReplacingOccurrencesOfString:@"\n" withString:@" "];
                     [beachmark addObject:message];
+                    
                     NSMutableArray *bboxArray = [NSMutableArray new];
                     for( int i = 0; i < zbar_symbol_get_loc_size(result.zbarSymbol); i ++ ) {
-                        [bboxArray addObject:@(zbar_symbol_get_loc_x(result.zbarSymbol, i)).stringValue];
-                        [bboxArray addObject:@(zbar_symbol_get_loc_y(result.zbarSymbol, i)).stringValue];
+                        [bboxArray addObject:@(zbar_symbol_get_loc_x(result.zbarSymbol, i) / scale).stringValue];
+                        [bboxArray addObject:@(zbar_symbol_get_loc_y(result.zbarSymbol, i) / scale).stringValue];
                     }
                     NSString *bboxString = [bboxArray componentsJoinedByString:@" "];
                     [beachmark addObject:bboxString];

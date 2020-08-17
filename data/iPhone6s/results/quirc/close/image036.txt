@@ -1,0 +1,4 @@
+# Quirc image036.jpg
+milliseconds = 14.16492462158203
+message = VERSION 2 8CM
+284 86 360 342 91 423 19 151

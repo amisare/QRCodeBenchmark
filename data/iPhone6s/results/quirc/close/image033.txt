@@ -1,0 +1,4 @@
+# Quirc image033.jpg
+milliseconds = 13.10014724731445
+message = VERSION 1 6CM
+211 98 356 287 156 440 8 237

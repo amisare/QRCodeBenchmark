@@ -1,4 +1,2 @@
 # OpenCV image012.jpg
-milliseconds = 93.6121940612793
-message = HTTPS://NUTS.COM/QR/retail_piece/45076039?sku=7016-01
-354 631 425 289 770.9999 362 706 706
+milliseconds = 143.5902118682861

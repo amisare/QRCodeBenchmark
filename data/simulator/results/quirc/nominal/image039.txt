@@ -1,0 +1,4 @@
+# Quirc image039.jpg
+milliseconds = 15.94209671020508
+message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
+256 470 431 454 476 618 286 645

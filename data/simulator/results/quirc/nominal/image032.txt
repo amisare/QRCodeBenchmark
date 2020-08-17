@@ -1,0 +1,4 @@
+# Quirc image032.jpg
+milliseconds = 12.7110481262207
+message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
+1275.75 1854.5625 1850.625 1791.5625 1921.5 2358.5625 1342.6875 2441.25

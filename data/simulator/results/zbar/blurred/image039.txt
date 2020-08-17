@@ -1,4 +1,4 @@
 # ZBar image039.jpg
-milliseconds = 36.32998466491699
+milliseconds = 26.50189399719238
 message = GH64-05708A
 307 309 310 406 406 402 403 307

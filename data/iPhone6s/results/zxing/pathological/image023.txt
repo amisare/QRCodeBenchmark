@@ -1,2 +1,4 @@
 # ZXing image023.png
-milliseconds = 7.013797760009766
+milliseconds = 7.290124893188477
+message = MAILTO:name@myemail.com
+60.5 236.5 60.5 60.5 236.5 60.5 212.5 212.5

@@ -1,2 +1,4 @@
 # ZBar image027.jpg
-milliseconds = 171.6299057006836
+milliseconds = 104.8839092254639
+message = Version 2 QR Code Test Image
+1956.9375 2386.125 1941.1875 2768.0625 2334.9375 2787.75 2358.5625 2401.875

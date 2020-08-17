@@ -1,0 +1,4 @@
+# Quirc image010.jpg
+milliseconds = 15.9759521484375
+message = http://www.sunmaid.com/book
+567 1106.4375 828.84375 1157.625 775.6875 1409.625 531.5625 1352.53125

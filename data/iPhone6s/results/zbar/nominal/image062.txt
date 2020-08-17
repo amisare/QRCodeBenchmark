@@ -1,4 +1,4 @@
 # ZBar image062.jpg
-milliseconds = 110.8911037445068
+milliseconds = 52.03986167907715
 message = http://www.postalexperience.com/pos?mt=4&sc=840-5940-0244-002-00006-80522-02
 84 185 119 423 417 410 363 183

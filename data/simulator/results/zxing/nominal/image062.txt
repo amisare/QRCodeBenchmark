@@ -1,2 +1,4 @@
 # ZXing image062.jpg
-milliseconds = 24.56378936767578
+milliseconds = 17.39621162414551
+message = http://www.postalexperience.com/pos?mt=4&sc=840-5940-0244-002-00006-80522-02
+148 394.5 118.5 208 340.5 206 351 365

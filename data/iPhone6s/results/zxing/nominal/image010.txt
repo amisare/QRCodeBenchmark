@@ -1,2 +1,4 @@
 # ZXing image010.jpg
-milliseconds = 23.81181716918945
+milliseconds = 27.66299247741699
+message = http://www.facebook.com/LangersJuice
+382 355.5 348.5 203.5 531.5 148 521.5 296.5

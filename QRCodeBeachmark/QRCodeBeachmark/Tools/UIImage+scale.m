@@ -18,20 +18,24 @@
     return scaledImage;
 }
 
-- (UIImage *)bm_imageScaleWithMaxSize:(CGSize)size {
+- (void)bm_imageScaleWithMaxSize:(CGSize)size complete:(void (^)(UIImage *scaledImage, CGFloat scale))complete {
     CGFloat cgImageWidth = CGImageGetWidth(self.CGImage);
     CGFloat cgImageHeight = CGImageGetHeight(self.CGImage);
+    UIImage *scaledImage = self;
+    CGFloat scale = 1.0;
     if (cgImageWidth > size.width || cgImageHeight > size.height) {
-        float scale = 1.0;
         if (cgImageWidth > size.width) {
             scale = size.width / cgImageWidth;
         }
         else {
             scale = size.height / cgImageHeight;
         }
-        return [self bm_imageScale:scale];
+        UIGraphicsBeginImageContext(CGSizeMake(self.size.width * scale, self.size.height * scale));
+        [self drawInRect:CGRectMake(0, 0, self.size.width * scale, self.size.height * scale)];
+        scaledImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
     }
-    return self;
+    return complete(scaledImage, scale);
 }
 
 @end

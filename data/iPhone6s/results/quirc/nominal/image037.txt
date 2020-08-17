@@ -1,0 +1,4 @@
+# Quirc image037.jpg
+milliseconds = 23.29492568969727
+message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
+309 457 398 448 409 538 319 548

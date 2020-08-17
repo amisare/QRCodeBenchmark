@@ -1,2 +1,4 @@
 # ZXing image020.png
-milliseconds = 6.429910659790039
+milliseconds = 8.021831512451172
+message = MAILTO:name@myemail.com
+60 236 60 60 236 60 212 212

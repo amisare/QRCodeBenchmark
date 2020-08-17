@@ -1,5 +1,5 @@
 # ZBar image011.jpg
-milliseconds = 116.2190437316895
+milliseconds = 57.52229690551758
 message = http://q-r.to/baf6RY
 648 246 561 64 375 148 455 335
 message = http://q-r.to/bafD2I

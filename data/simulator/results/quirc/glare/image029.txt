@@ -1,0 +1,4 @@
+# Quirc image029.jpg
+milliseconds = 8.080959320068359
+message = https://goo.gl/forms/ofwmcoJn1qN6HPb72
+387.5 198.4375 729.6875 218.75 695.3125 498.4375 378.125 498.4375

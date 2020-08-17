@@ -1,2 +1,2 @@
 # MLKit image021.jpg
-milliseconds = 68.28093528747559
+milliseconds = 51.82695388793945

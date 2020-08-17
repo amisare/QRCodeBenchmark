@@ -1,4 +1,4 @@
 # ZBar image047.jpg
-milliseconds = 98.41203689575195
+milliseconds = 37.35709190368652
 message = http://www.youtube.com/watch?v=7qa6Bho4OyM&feature=share&list=PLk13TE2t32tgRCVo0q8tTB1CyZyMDQCNH&index=10
 144 94 92 321 309 360 363 145

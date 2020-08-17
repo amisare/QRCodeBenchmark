@@ -1,0 +1,4 @@
+# Quirc image032.jpg
+milliseconds = 13.23795318603516
+message = http://www.bestekmall.com/
+767.8125 1567.125 1945.125 1460.8125 2051.4375 2579.0625 909.5625 2772

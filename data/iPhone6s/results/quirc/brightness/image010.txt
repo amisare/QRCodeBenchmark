@@ -1,0 +1,4 @@
+# Quirc image010.jpg
+milliseconds = 51.15795135498047
+message = Version 2 QR Code Test Image
+1858.5 2338.875 2256.1875 2358.5625 2232.5625 2740.5 1834.875 2728.6875

@@ -1,2 +1,4 @@
 # ZXing image014.jpg
-milliseconds = 25.80714225769043
+milliseconds = 26.65209770202637
+message = http://www.lonelyplanet.com/
+234.25 278.625 283.5 204 362.75 214.25 312.75 277.5

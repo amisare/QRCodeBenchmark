@@ -1,0 +1,4 @@
+# Quirc image004.jpg
+milliseconds = 23.48613739013672
+message = This is a computer generated QR Code
+174.28125 284.8828125 2359.5 204.4453125 2305.875 2627.625 63.6796875 2429.8828125

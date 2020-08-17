@@ -1,2 +1,4 @@
 # ZXing image009.jpg
-milliseconds = 21.31319046020508
+milliseconds = 12.57681846618652
+message = http://albtsn.com/ugtezn8
+230.5 242 225 141 320.5 136 310.5 220.5

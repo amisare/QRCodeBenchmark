@@ -1,2 +1,4 @@
 # ZXing image006.jpg
-milliseconds = 16.33596420288086
+milliseconds = 9.994983673095703
+message = {"lastNode":"OAK5","cids":{"pkey":"171227103636638907587520201AZ"}}
+470.5 114.5 480 265.0833435058594 300 236 333.75 109

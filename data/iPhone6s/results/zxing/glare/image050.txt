@@ -1,2 +1,4 @@
 # ZXing image050.jpg
-milliseconds = 29.82997894287109
+milliseconds = 34.7130298614502
+message = http://www.youtube.com/watch?v=7qa6Bho4OyM&feature=share&list=PLk13TE2t32tgRCVo0q8tTB1CyZyMDQCNH&index=10
+428.1666564941406 559.5 145.1666717529297 415.6666564941406 289.1666564941406 137.1666717529297 520.25 292.5

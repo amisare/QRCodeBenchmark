@@ -1,0 +1,4 @@
+# Quirc image006.jpg
+milliseconds = 33.38813781738281
+message = HTTPS://NUTS.COM/QR/retail_piece/51707477?sku=7030-01
+332 408 476 390 494 533 346 551

@@ -1,0 +1,4 @@
+# Quirc image049.jpg
+milliseconds = 10.85805892944336
+message = http://www.youtube.com/watch?v=7qa6Bho4OyM&feature=share&list=PLk13TE2t32tgRCVo0q8tTB1CyZyMDQCNH&index=10
+225 125 448 260 317 480 89 358

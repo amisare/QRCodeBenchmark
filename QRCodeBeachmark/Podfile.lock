@@ -53,18 +53,20 @@ PODS:
   - NNMacros (2.4.1):
     - NNMacros/Bases (= 2.4.1)
   - NNMacros/Bases (2.4.1)
-  - OpenCV (4.1.0)
+  - OpenCV2 (4.0.1)
   - PromisesObjC (1.2.10)
   - Protobuf (3.12.0)
+  - Quirc (0.1.0)
   - ZBarSDK (1.3.1)
   - ZXingObjC (3.6.5):
     - ZXingObjC/All (= 3.6.5)
   - ZXingObjC/All (3.6.5)
 
 DEPENDENCIES:
-  - GoogleMLKit/BarcodeScanning
+  - GoogleMLKit/BarcodeScanning (= 0.62.0)
   - NNMacros
-  - OpenCV
+  - OpenCV2 (= 4.0.1)
+  - Quirc (from `./Thirdparty/Quirc/`)
   - ZBarSDK
   - ZXingObjC
 
@@ -81,11 +83,15 @@ SPEC REPOS:
     - MLKitVision
     - nanopb
     - NNMacros
-    - OpenCV
+    - OpenCV2
     - PromisesObjC
     - Protobuf
     - ZBarSDK
     - ZXingObjC
+
+EXTERNAL SOURCES:
+  Quirc:
+    :path: "./Thirdparty/Quirc/"
 
 SPEC CHECKSUMS:
   GoogleDataTransport: 672fb0ce96fe7f7f31d43672fca62ad2c9c86f7b
@@ -99,12 +105,13 @@ SPEC CHECKSUMS:
   MLKitVision: 6f0f4e5168becf2bb2e053ddfe26da2a27cc4906
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   NNMacros: 81ba503ea69cb0171b87f01fb72afc182adfd596
-  OpenCV: 52cd4d72ff29e2be83421477aec5447320b7fb19
+  OpenCV2: e770b5a33a269953e6c29b44acbb0433f08ec5ae
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
   Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  Quirc: 7495fc7aa5a732f676fd9b115e1323b64bdedc43
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: a6cd2d9d16ac26d0c7def4a19ece9eee452e4f5b
+PODFILE CHECKSUM: a9e9a38edddb206946d5dfe4b4decc732b20c7e6
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3

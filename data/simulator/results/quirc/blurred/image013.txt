@@ -1,0 +1,4 @@
+# Quirc image013.jpg
+milliseconds = 5.815029144287109
+message = http://g.augme.com/1803
+247 36 253 222 63 225 61 41

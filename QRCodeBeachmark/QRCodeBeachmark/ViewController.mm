@@ -14,11 +14,14 @@
 #import "BMCIDetector.h"
 #import "BMMLKit.h"
 #import "BMCoreML.h"
+#import "BMQuirc.h"
+
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIButton *startButton;
 @property (weak, nonatomic) IBOutlet UILabel *OpenCVCountLabel;
+@property (weak, nonatomic) IBOutlet UILabel *QuircCountLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ZBarCountLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ZXingCountLabel;
 @property (weak, nonatomic) IBOutlet UILabel *CIDetectorCountLabel;
@@ -45,7 +48,15 @@
                 self.OpenCVCountLabel.text = [NSString stringWithFormat:@"%d/%d", count, total];
             });
         }];
-
+        
+        [[BMQuirc new] benchmark:^(int total, int count, NSString *imagePath, NSString *beachmarkPath) {
+            NSLog(@"%@", imagePath);
+            NSLog(@"%@", beachmarkPath);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.QuircCountLabel.text = [NSString stringWithFormat:@"%d/%d", count, total];
+            });
+        }];
+        
         [[BMZBar new] benchmark:^(int total, int count, NSString *imagePath, NSString *beachmarkPath) {
             NSLog(@"%@", imagePath);
             NSLog(@"%@", beachmarkPath);
@@ -53,7 +64,7 @@
                 self.ZBarCountLabel.text = [NSString stringWithFormat:@"%d/%d", count, total];
             });
         }];
-
+        
         [[BMZXing new] benchmark:^(int total, int count, NSString *imagePath, NSString *beachmarkPath) {
             NSLog(@"%@", imagePath);
             NSLog(@"%@", beachmarkPath);
@@ -61,7 +72,7 @@
                 self.ZXingCountLabel.text = [NSString stringWithFormat:@"%d/%d", count, total];
             });
         }];
-
+        
         [[BMCIDetector new] benchmark:^(int total, int count, NSString *imagePath, NSString *beachmarkPath) {
             NSLog(@"%@", imagePath);
             NSLog(@"%@", beachmarkPath);
@@ -69,7 +80,7 @@
                 self.CIDetectorCountLabel.text = [NSString stringWithFormat:@"%d/%d", count, total];
             });
         }];
-
+        
         [[BMMLKit new] benchmark:^(int total, int count, NSString *imagePath, NSString *beachmarkPath) {
             NSLog(@"%@", imagePath);
             NSLog(@"%@", beachmarkPath);
@@ -77,7 +88,7 @@
                 self.MLKitCountLabel.text = [NSString stringWithFormat:@"%d/%d", count, total];
             });
         }];
-
+        
         [[BMCoreML new] benchmark:^(int total, int count, NSString *imagePath, NSString *beachmarkPath) {
             NSLog(@"%@", imagePath);
             NSLog(@"%@", beachmarkPath);

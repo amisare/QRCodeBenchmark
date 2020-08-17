@@ -1,2 +1,2 @@
 # OpenCV image034.jpg
-milliseconds = 55.8769702911377
+milliseconds = 35.47501564025879

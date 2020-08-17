@@ -1,0 +1,4 @@
+# Quirc image029.jpg
+milliseconds = 23.70977401733398
+message = http://goo.gl/ErBxV
+339.25 415.4375 845.25 432.6875 763.3125 859.625 284.625 852.4375

@@ -1,4 +1,4 @@
 # ZBar image014.jpg
-milliseconds = 73.18496704101562
+milliseconds = 48.69484901428223
 message = http://www.lonelyplanet.com/
 278 190 210 291 326 314 385 203

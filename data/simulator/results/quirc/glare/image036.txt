@@ -1,0 +1,4 @@
+# Quirc image036.jpg
+milliseconds = 13.19599151611328
+message = http://bit.ly/l5qo2F?r=qr
+102 129 517 134 520 521 119 514

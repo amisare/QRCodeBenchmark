@@ -1,2 +1,2 @@
 # CoreML image012.jpg
-milliseconds = 26.86786651611328
+milliseconds = 24.65200424194336

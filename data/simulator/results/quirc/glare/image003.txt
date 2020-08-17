@@ -1,0 +1,4 @@
+# Quirc image003.jpg
+milliseconds = 6.590843200683594
+message = HTTPS://NUTS.COM/QR/retail_piece/51707477?sku=7030-01
+86 91 230 73 249 216 99 234

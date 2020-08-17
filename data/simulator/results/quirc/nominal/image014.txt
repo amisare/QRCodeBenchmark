@@ -1,0 +1,4 @@
+# Quirc image014.jpg
+milliseconds = 10.53905487060547
+message = http://www.lonelyplanet.com/
+278 190 386 202 325 313 207 290

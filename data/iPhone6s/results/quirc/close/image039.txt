@@ -1,0 +1,4 @@
+# Quirc image039.jpg
+milliseconds = 11.93809509277344
+message = VERSION 1 6CM
+71 217 293 207 356 437 26 458

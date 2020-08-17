@@ -1,2 +1,4 @@
 # ZXing image011.jpg
-milliseconds = 19.62518692016602
+milliseconds = 21.29387855529785
+message = http://q-r.to/baf6RY
+548.5 96.33333587646484 613.125 234.25 469 300.375 433.25 170.5

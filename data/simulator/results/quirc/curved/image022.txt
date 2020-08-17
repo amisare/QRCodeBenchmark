@@ -1,0 +1,4 @@
+# Quirc image022.jpg
+milliseconds = 21.67081832885742
+message = Test 03
+482 429 405 512 321 424 415 346

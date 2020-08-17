@@ -1,1 +1,0 @@
-MECARD:N:Standard11.5,Joe;NOTE:This is a Test;;

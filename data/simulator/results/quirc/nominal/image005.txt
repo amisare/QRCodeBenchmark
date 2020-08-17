@@ -1,0 +1,4 @@
+# Quirc image005.jpg
+milliseconds = 6.984710693359375
+message = {"lastNode":"OAK5","cids":{"pkey":"171227103636638907587520201AZ"}}
+401 265 216 223 253 52 439 86

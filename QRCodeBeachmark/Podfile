@@ -6,10 +6,11 @@ target 'QRCodeBeachmark' do
   use_frameworks!
   
   pod 'NNMacros'
-  pod 'OpenCV'
+  pod 'OpenCV2',        '4.0.1'
   pod 'ZBarSDK'
   pod 'ZXingObjC'
-  pod 'GoogleMLKit/BarcodeScanning'
+  pod 'GoogleMLKit/BarcodeScanning',    '0.62.0'
+  pod 'Quirc',          :path => './Thirdparty/Quirc/'
   
   target 'QRCodeBeachmarkTests' do
     inherit! :search_paths

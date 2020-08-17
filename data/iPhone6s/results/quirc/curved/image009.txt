@@ -1,0 +1,4 @@
+# Quirc image009.jpg
+milliseconds = 15.04302024841309
+message = http://albtsn.com/ugtezn8
+203 122 336 117 347 252 214 261

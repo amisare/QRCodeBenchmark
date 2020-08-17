@@ -6,10 +6,12 @@
 //  Copyright © 2020 GuHaiJun. All rights reserved.
 //
 
-#import "BMOpenCV.h"
-#import <UIKit/UIKit.h>
+#import <opencv2/opencv.hpp>
 #import <opencv2/objdetect.hpp>
 #import <opencv2/imgcodecs/ios.h>
+
+#import "BMOpenCV.h"
+#import <UIKit/UIKit.h>
 #import "BMFileUtils.h"
 #import "UIImage+scale.h"
 
@@ -24,16 +26,20 @@ using namespace cv;
     [BMFileUtils enumerateAllImagesUsingBlock:^(NSString *imagePath, NSString *imageCategory, NSString *imageName) {
         
         @autoreleasepool {
+            UIImage *imageOrigin = [UIImage imageWithContentsOfFile:imagePath];
+            __block UIImage *image = imageOrigin;
+            __block CGFloat scale = 1.0;
+            // scale size
+            [imageOrigin bm_imageScaleWithMaxSize:CGSizeMake(768, 1008) complete:^(UIImage *_image, CGFloat _scale) {
+                image = _image;
+                scale = _scale;
+            }];
+            
             cv::QRCodeDetector scanner = cv::QRCodeDetector();
             
-            UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
-            // scale size
-            image = [image bm_imageScaleWithMaxSize:CGSizeMake(768, 1008)];
-            
             NSTimeInterval tick = [[NSDate date] timeIntervalSince1970];
-            Mat mat;
+            Mat mat, bbox;
             UIImageToMat(image, mat);
-            Mat bbox;
             std::string msg = scanner.detectAndDecode(mat, bbox);
             NSTimeInterval tock = [[NSDate date] timeIntervalSince1970];
             
@@ -48,12 +54,15 @@ using namespace cv;
                 NSMutableArray *bboxArray = [NSMutableArray new];
                 for( int j = 0; j < bbox.rows; j ++ ) {
                     for (int i = 0; i < 2; i ++ ) {
-                        [bboxArray addObject:@(bbox.at<float>(j,i)).stringValue];
+                        [bboxArray addObject:@(bbox.at<float>(j, i) / scale).stringValue];
                     }
                 }
                 NSString *bboxString = [bboxArray componentsJoinedByString:@" "];
                 [beachmark addObject:bboxString];
             }
+            
+            mat.release();
+            bbox.release();
             
             NSString *beachmarkString = [beachmark componentsJoinedByString:@"\n"];
             NSString *beachmarkFileName = [[imageName componentsSeparatedByString:@"."][0] stringByAppendingString:@".txt"];

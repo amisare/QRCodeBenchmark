@@ -1,4 +1,4 @@
 # ZBar image037.jpg
-milliseconds = 146.2621688842773
+milliseconds = 98.30117225646973
 message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
 309 458 319 548 409 537 398 448

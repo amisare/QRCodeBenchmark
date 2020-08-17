@@ -1,0 +1,4 @@
+# Quirc image007.jpg
+milliseconds = 43.04599761962891
+message = https://www.surveymonkey.com/s/TheClubatLAS_T3
+343 531 502 542 489 685 339 674

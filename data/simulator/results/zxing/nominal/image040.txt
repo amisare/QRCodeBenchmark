@@ -1,2 +1,4 @@
 # ZXing image040.jpg
-milliseconds = 14.81890678405762
+milliseconds = 10.86616516113281
+message = https://www.instagram.com/lethmik/
+341 139.5 337.5 85 394 79.5 391.5 129.5

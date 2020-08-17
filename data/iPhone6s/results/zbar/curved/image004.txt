@@ -1,4 +1,4 @@
 # ZBar image004.png
-milliseconds = 80.23786544799805
+milliseconds = 35.38322448730469
 message = https://www.facebook.com/elyucateco
 109 133 83 270 223 281 240 152

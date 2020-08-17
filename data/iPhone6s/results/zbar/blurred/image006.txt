@@ -1,4 +1,4 @@
 # ZBar image006.jpg
-milliseconds = 204.0567398071289
+milliseconds = 113.6960983276367
 message = https://www.surveymonkey.com/s/TheClubatLAS_T3
-348 540 344 684 497 695 511 550
+1370.25 2126.25 1354.5 2693.25 1956.9375 2740.5 2012.0625 2165.625

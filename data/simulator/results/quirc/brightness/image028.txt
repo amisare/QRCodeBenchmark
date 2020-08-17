@@ -1,0 +1,6 @@
+# Quirc image028.jpg
+milliseconds = 30.10225296020508
+message = Version 1 QR
+527 432 613 430 613 518 527 517
+message = Version 2 QR Code Test Image
+476 599 575 603 570 700 473 696

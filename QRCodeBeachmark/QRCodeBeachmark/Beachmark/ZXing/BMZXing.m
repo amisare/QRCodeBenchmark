@@ -22,30 +22,45 @@
     [BMFileUtils enumerateAllImagesUsingBlock:^(NSString *imagePath, NSString *imageCategory, NSString *imageName) {
         
         @autoreleasepool {
-            UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+            UIImage *imageOrigin = [UIImage imageWithContentsOfFile:imagePath];
+            __block UIImage *image = imageOrigin;
+            __block CGFloat scale = 1.0;
             // scale size
-            image = [image bm_imageScaleWithMaxSize:CGSizeMake(768, 1008)];
+            [imageOrigin bm_imageScaleWithMaxSize:CGSizeMake(768, 1008) complete:^(UIImage *_image, CGFloat _scale) {
+                image = _image;
+                scale = _scale;
+            }];
+            
+            ZXQRCodeMultiReader *scanner = [ZXQRCodeMultiReader new];
             
             NSTimeInterval tick = [[NSDate date] timeIntervalSince1970];
             ZXCGImageLuminanceSource *source = [[ZXCGImageLuminanceSource alloc] initWithCGImage:image.CGImage];
             ZXHybridBinarizer *binarizer = [[ZXHybridBinarizer alloc] initWithSource: source];
             ZXBinaryBitmap *bitmap = [[ZXBinaryBitmap alloc] initWithBinarizer:binarizer];
-            NSArray<ZXResult *> *results = [[ZXQRCodeMultiReader alloc] decodeMultiple:bitmap error:nil];
+            NSError *error;
+            ZXDecodeHints *hints = [ZXDecodeHints new];
+            hints.tryHarder = true;
+            NSArray<ZXResult *> *results = [scanner decodeMultiple:bitmap hints:hints error:&error];
             NSTimeInterval tock = [[NSDate date] timeIntervalSince1970];
-            
             
             NSMutableArray *beachmark = [NSMutableArray new];
             [beachmark addObject:[@"# ZXing " stringByAppendingString:imageName]];
             [beachmark addObject:[@"milliseconds = " stringByAppendingString:@((tock - tick) * 1000).stringValue]];
             
-            if ([results count]) {
+            if ([results count] && error == NULL) {
                 for (ZXResult *result in results) {
+                    // skip incorrect result
+                    if ([result.resultPoints count] != 4) {
+                        continue;
+                    }
                     NSString *message = [@"message = " stringByAppendingString:[result text]];
                     message = [message stringByReplacingOccurrencesOfString:@"\n" withString:@" "];
                     [beachmark addObject:message];
+                    
                     NSMutableArray *bboxArray = [NSMutableArray new];
-                    for (id v in result.resultPoints) {
-                        [bboxArray addObject:[v stringValue]];
+                    for (ZXQRCodeFinderPattern *v in result.resultPoints) {
+                        [bboxArray addObject:[@(v.x / scale) stringValue]];
+                        [bboxArray addObject:[@(v.y / scale) stringValue]];
                     }
                     NSString *bboxString = [bboxArray componentsJoinedByString:@" "];
                     [beachmark addObject:bboxString];

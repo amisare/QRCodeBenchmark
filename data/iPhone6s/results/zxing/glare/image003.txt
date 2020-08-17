@@ -1,2 +1,4 @@
 # ZXing image003.jpg
-milliseconds = 11.16609573364258
+milliseconds = 12.61520385742188
+message = HTTPS://NUTS.COM/QR/retail_piece/51707477?sku=7030-01
+114.5 217 102.5 104.125 217.5 90 216 191.5

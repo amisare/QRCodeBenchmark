@@ -1,2 +1,4 @@
 # ZXing image036.jpg
-milliseconds = 34.53803062438965
+milliseconds = 47.16897010803223
+message = http://weixin.qq.com/r/FnUnPxnE2kSlrV1c9yAE
+349 595 334.5 476 451.5 463 452.5 569

@@ -1,2 +1,4 @@
 # ZXing image029.jpg
-milliseconds = 18.73683929443359
+milliseconds = 18.91899108886719
+message = https://goo.gl/forms/ofwmcoJn1qN6HPb72
+422.65625 464.84375 429.6875 239.84375 689.84375 253.125 635.15625 441.40625

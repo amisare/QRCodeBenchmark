@@ -1,0 +1,4 @@
+# Quirc image008.jpg
+milliseconds = 11.34490966796875
+message = http://www.radians.com/sizing_charts/
+114.84375 312.890625 570.703125 101.953125 832.03125 535.546875 384.375 796.875
