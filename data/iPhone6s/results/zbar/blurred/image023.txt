@@ -1,4 +1,4 @@
 # ZBar image023.jpg
-milliseconds = 0.1411640644073486
+milliseconds = 142.606258392334
 message = Version 1 QR
-178 280 77 779 575 872 666 375
+181 284 78 791 583 885 676 381

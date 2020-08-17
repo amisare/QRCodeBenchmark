@@ -1,4 +1,4 @@
 # ZBar image019.jpg
-milliseconds = 0.1073460578918457
+milliseconds = 117.5501346588135
 message = PETERABELES041.PremierSubaruFremont.com
-520 711 567 437 310 398 254 658
+528 722 576 444 312 403 258 668

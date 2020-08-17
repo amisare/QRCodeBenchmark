@@ -1,4 +1,4 @@
 # ZBar image024.jpg
-milliseconds = 0.1258149147033691
+milliseconds = 128.4439563751221
 message = https://mobile-now.us/?l=10043659
-475 282 473 377 573 376 584 280
+483 286 480 383 582 382 593 284

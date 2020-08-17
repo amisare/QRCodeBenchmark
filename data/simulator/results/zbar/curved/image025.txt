@@ -1,4 +1,4 @@
 # ZBar image025.jpg
-milliseconds = 0.1357331275939941
+milliseconds = 109.0002059936523
 message = 豁｣螳鈴刀隗る浹闌ｶ蜿ｶ 荵仙刀荵占幻  http://detail.tmall.com/item.htm?id=13996190738
-277 487 276 667 455 668 457 489
+282 495 280 677 462 679 464 497

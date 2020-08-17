@@ -1,6 +1,6 @@
 # ZBar image003.jpg
-milliseconds = 0.1408789157867432
+milliseconds = 132.8577995300293
 message = http://q-r.to/baf6RY
-699 266 606 68 404 161 493 359
+710 270 616 71 409 163 499 367
 message = http://q-r.to/bafD2I
-346 428 257 224 49 319 133 523
+351 434 261 229 49 324 135 531

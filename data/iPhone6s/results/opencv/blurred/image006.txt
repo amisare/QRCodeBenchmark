@@ -1,4 +1,2 @@
 # OpenCV image006.jpg
-milliseconds = 0.07337212562561035
-message = https://www.surveymonkey.com/s/TheClubatLAS_T3
-342.0879 530.7492 502.7484 541.048 489.2349 684.6296 338.2072 674.3323
+milliseconds = 35.23421287536621

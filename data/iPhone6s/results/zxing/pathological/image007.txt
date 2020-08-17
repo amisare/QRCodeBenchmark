@@ -1,2 +1,2 @@
 # ZXing image007.png
-milliseconds = 0.00655817985534668
+milliseconds = 5.972862243652344

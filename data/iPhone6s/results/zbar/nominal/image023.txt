@@ -1,4 +1,4 @@
 # ZBar image023.jpg
-milliseconds = 0.1016099452972412
+milliseconds = 104.0687561035156
 message = http://www.teagoetz.com/
-526 285 441 149 300 241 390 367
+534 290 447 153 304 244 396 373

@@ -1,2 +1,4 @@
 # OpenCV image012.jpg
-milliseconds = 0.01999211311340332
+milliseconds = 39.33811187744141
+message = http://www.lonelyplanet.com/
+318 136 457.4673 170.2764 399.5598 290.9171 241.068 236.2648

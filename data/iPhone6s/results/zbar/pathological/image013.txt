@@ -1,4 +1,4 @@
 # ZBar image013.png
-milliseconds = 0.0274660587310791
+milliseconds = 26.00312232971191
 message = MAILTO:name@myemail.com
 31 31 31 264 265 265 264 31

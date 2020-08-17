@@ -1,4 +1,2 @@
 # OpenCV image048.jpg
-milliseconds = 0.03555679321289062
-message = http://bit.ly/l5qo2F?r=qr
-270 334 476.4525 329 466.8027 520.9241 266.8433 529.3434
+milliseconds = 17.81177520751953

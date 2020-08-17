@@ -1,2 +1,4 @@
 # ZBar image004.jpg
-milliseconds = 0.1841311454772949
+milliseconds = 181.9972991943359
+message = http://q-r.to/baf6RY
+741 254 644 43 429 164 529 380

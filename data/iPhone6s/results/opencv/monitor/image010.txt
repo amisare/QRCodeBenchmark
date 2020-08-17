@@ -1,4 +1,4 @@
 # OpenCV image010.jpg
-milliseconds = 0.07130193710327148
+milliseconds = 71.06590270996094
 message = This is a computer generated QR Code
-86 40 692 65 696 679 64 667
+87 40 703 66 706.9999 686 65 678

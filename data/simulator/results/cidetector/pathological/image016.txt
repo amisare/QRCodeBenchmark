@@ -1,4 +1,4 @@
 # CIDetector image016.png
-milliseconds = 0.01325106620788574
+milliseconds = 15.61689376831055
 message = MAILTO:name@myemail.com
 32 264 264 264 264 32 32 32

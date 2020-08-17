@@ -1,2 +1,4 @@
 # ZBar image001.jpg
-milliseconds = 0.07304191589355469
+milliseconds = 77.23402976989746
+message = HTTPS://NUTS.COM/QR/retail_piece/43597561?sku=4022-01
+265 449 265 508 326 508 327 449

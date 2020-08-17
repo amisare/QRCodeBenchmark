@@ -1,4 +1,4 @@
 # ZBar image005.jpg
-milliseconds = 0.07428121566772461
+milliseconds = 91.34888648986816
 message = amzn.to/socialqr
-217 223 187 455 433 486 457 254
+222 230 191 462 441 494 465 258

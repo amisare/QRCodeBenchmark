@@ -1,4 +1,4 @@
 # OpenCV image055.jpg
-milliseconds = 0.09772300720214844
+milliseconds = 95.45302391052246
 message = http://www.bestekmall.com/
-183 117 656 130 630.1895 523 205 518
+186 119 665 130 642.6954 531 208 526

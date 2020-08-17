@@ -1,4 +1,4 @@
 # ZBar image008.jpg
-milliseconds = 0.06026315689086914
+milliseconds = 60.37807464599609
 message = http://www.facebook.com/LangersJuice
-312 130 352 326 519 264 518 74
+317 132 357 332 528 269 527 76

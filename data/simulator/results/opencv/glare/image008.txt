@@ -1,2 +1,4 @@
 # OpenCV image008.jpg
-milliseconds = 0.02483797073364258
+milliseconds = 38.55419158935547
+message = http://www.boschautoparts.com/qr/icon.aspx
+379.8298 409.0685 272.5716 287.8201 394.7667 179.3192 502.5187 297.0482

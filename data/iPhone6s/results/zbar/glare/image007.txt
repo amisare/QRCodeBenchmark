@@ -1,4 +1,4 @@
 # ZBar image007.jpg
-milliseconds = 0.1635608673095703
+milliseconds = 157.0401191711426
 message = http://www.boschautoparts.com/qr/icon.aspx
-201 274 283 166 154 92 64 192
+204 279 287 168 157 94 64 195

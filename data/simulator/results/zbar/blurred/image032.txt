@@ -1,4 +1,4 @@
 # ZBar image032.jpg
-milliseconds = 0.1053869724273682
+milliseconds = 93.46318244934082
 message = http://www.bestekmall.com/
-191 390 227 694 513 646 486 365
+194 396 231 705 521 657 494 371

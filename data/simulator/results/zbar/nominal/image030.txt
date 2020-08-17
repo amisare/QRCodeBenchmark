@@ -1,4 +1,4 @@
 # ZBar image030.jpg
-milliseconds = 0.03894805908203125
+milliseconds = 45.42994499206543
 message = http://onramp.ehi.com/HYUN/ACNT/4SE/US/?v=KMHCT4AE3GU107709
-167 163 183 280 311 277 302 159
+170 166 186 284 316 281 306 162

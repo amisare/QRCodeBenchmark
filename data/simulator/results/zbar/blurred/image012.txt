@@ -1,4 +1,4 @@
 # ZBar image012.jpg
-milliseconds = 0.07071614265441895
+milliseconds = 84.55610275268555
 message = http://g.augme.com/1803
-564 227 458 231 461 335 568 333
+574 231 466 234 469 340 576 338

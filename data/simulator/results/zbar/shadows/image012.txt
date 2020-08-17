@@ -1,4 +1,4 @@
 # ZBar image012.jpg
-milliseconds = 0.07938885688781738
+milliseconds = 101.4018058776855
 message = HTTPS://NUTS.COM/QR/retail_piece/45076039?sku=7016-01
-351 622 695 696 758 353 418 284
+356 633 707 706 769 360 425 288

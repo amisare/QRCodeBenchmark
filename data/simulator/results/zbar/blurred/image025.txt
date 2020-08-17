@@ -1,5 +1,5 @@
 # ZBar image025.jpg
-milliseconds = 0.02258396148681641
+milliseconds = 24.56998825073242
 message = http://www.boschautoparts.com/qr/icon.aspx
 34 481 152 488 157 371 39 363
 message = http://www.boschautoparts.com/qr/icon.aspx

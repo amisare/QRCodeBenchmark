@@ -1,4 +1,4 @@
 # ZBar image008.jpg
-milliseconds = 0.09034299850463867
+milliseconds = 121.9360828399658
 message = This is a computer generated QR Code
-84 35 31 681 727 703 698 42
+85 35 31 693 738 712 709 44

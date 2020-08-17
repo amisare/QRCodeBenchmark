@@ -1,4 +1,4 @@
 # ZBar image029.jpg
-milliseconds = 0.1409749984741211
+milliseconds = 140.4070854187012
 message = http://goo.gl/ErBxV
-231 279 192 588 524 592 579 296
+235 284 196 597 532 601 588 301

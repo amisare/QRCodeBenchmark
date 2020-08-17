@@ -1,6 +1,2 @@
 # ZBar image003.jpg
-milliseconds = 0.7885339260101318
-message = Enough
-363 122 353 158 386 165 397 128
-message = Test 02
-461 207 448 244 486 253 499 214
+milliseconds = 464.7512435913086

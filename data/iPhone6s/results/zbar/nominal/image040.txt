@@ -1,4 +1,4 @@
 # ZBar image040.jpg
-milliseconds = 0.1033477783203125
+milliseconds = 103.9750576019287
 message = https://www.instagram.com/lethmik/
 329 78 334 147 407 142 401 71

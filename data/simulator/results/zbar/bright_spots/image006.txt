@@ -1,2 +1,6 @@
 # ZBar image006.jpg
-milliseconds = 0.1073739528656006
+milliseconds = 88.55295181274414
+message = Version 1 QR
+497 495 498 560 561 559 561 494
+message = Version 2 QR Code Test Image
+462 625 459 703 536 705 537 627

@@ -1,2 +1,4 @@
 # ZBar image015.jpg
-milliseconds = 0.1097939014434814
+milliseconds = 113.6400699615479
+message = 豁｣螳鈴刀隗る浹闌ｶ蜿ｶ 荵仙刀荵占幻  http://detail.tmall.com/item.htm?id=13996190738
+275 191 265 408 471 409 476 200

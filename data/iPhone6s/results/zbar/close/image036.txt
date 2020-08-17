@@ -1,4 +1,4 @@
 # ZBar image036.jpg
-milliseconds = 0.1239039897918701
+milliseconds = 117.4459457397461
 message = VERSION 2 8CM
 283 86 23 152 92 421 358 341

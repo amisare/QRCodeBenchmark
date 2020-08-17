@@ -1,4 +1,4 @@
 # ZBar image009.jpg
-milliseconds = 0.1124069690704346
+milliseconds = 112.3018264770508
 message = http://albtsn.com/ugtezn8
 206 123 213 261 346 253 336 117

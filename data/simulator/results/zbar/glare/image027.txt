@@ -1,4 +1,4 @@
 # ZBar image027.jpg
-milliseconds = 0.1356377601623535
+milliseconds = 127.4340152740479
 message = http://uqr.me/acgovdehvehicles
-213 566 222 793 456 791 461 565
+217 575 225 806 463 804 468 574
