@@ -13,11 +13,12 @@ project_home = os.path.dirname(os.path.realpath(__file__))
 os.chdir(project_home)
 sys.path.append(os.path.join(project_home,"../../scripts"))
 
-#from validationboof import *
+# from validationboof import *
 
 # Handle command line options
 p = optparse.OptionParser()
-p.add_option('--Images', '-i', default="qrcodes/detection",help="Location of directory with input images")
+# p.add_option('--Images', '-i', default="../../data/fiducials/qrcodes/detection",help="Location of directory with input images")
+p.add_option('--Images', '-i', default="../qrcodes/detection",help="Location of directory with input images")
 p.add_option('--Results', '-r', default="results",help="Location of root results directory")
 
 
@@ -37,8 +38,7 @@ def parse_truth( file_path ):
                 if len(values) != 8:
                     print("Expected 4 corners in truth. "+file_path)
                     print(values)
-                    # exit(1)
-                    locations.append([0, 0, 0, 0, 0, 0, 0, 0])
+                    exit(1)
                 else:
                     locations.append(values)
             else:
@@ -48,8 +48,7 @@ def parse_truth( file_path ):
             if len(corners) != 8:
                 print("Expected 4 corners in truth. "+file_path)
                 print(corners)
-                # exit(1)
-                locations.append([0, 0, 0, 0, 0, 0, 0, 0])
+                exit(1)
             else:
                 locations.append(corners)
     return locations
@@ -69,8 +68,7 @@ def parse_results( file_path ):
                 if len(values) != 8:
                     print("Expected 4 corners in results. "+file_path)
                     print(values)
-                    # exit(1)
-                    locations.append([0, 0, 0, 0, 0, 0, 0, 0])
+                    exit(1)
                 else:
                     locations.append(values)
     return {'locs':locations,'ms':milliseconds}

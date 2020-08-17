@@ -11,5 +11,6 @@
 @interface UIImage (scale)
 
 - (UIImage *)bm_imageScale:(CGFloat)scale;
+- (UIImage *)bm_imageScaleWithMaxSize:(CGSize)size;
 
 @end

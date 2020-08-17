@@ -27,7 +27,6 @@ PODS:
   - GoogleUtilitiesComponents (1.0.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.4.0)
-  - Masonry (1.1.0)
   - MLKitBarcodeScanning (0.62.0):
     - MLKitCommon (~> 0.62)
     - MLKitVision (~> 0.62)
@@ -64,7 +63,6 @@ PODS:
 
 DEPENDENCIES:
   - GoogleMLKit/BarcodeScanning
-  - Masonry
   - NNMacros
   - OpenCV
   - ZBarSDK
@@ -78,7 +76,6 @@ SPEC REPOS:
     - GoogleUtilities
     - GoogleUtilitiesComponents
     - GTMSessionFetcher
-    - Masonry
     - MLKitBarcodeScanning
     - MLKitCommon
     - MLKitVision
@@ -97,7 +94,6 @@ SPEC CHECKSUMS:
   GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
   GoogleUtilitiesComponents: a69c0b3b369ba443e988141e75ef49d9010b1c80
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MLKitBarcodeScanning: 111a08148e542f6deb5a49294c4d8b2436a0daf9
   MLKitCommon: 9890ef9e9c374f53a48e435a4c6ce208c8b16a1e
   MLKitVision: 6f0f4e5168becf2bb2e053ddfe26da2a27cc4906
@@ -109,6 +105,6 @@ SPEC CHECKSUMS:
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: 887839af3bb9ed82210431dddf334737b24d787f
+PODFILE CHECKSUM: a6cd2d9d16ac26d0c7def4a19ece9eee452e4f5b
 
 COCOAPODS: 1.8.4

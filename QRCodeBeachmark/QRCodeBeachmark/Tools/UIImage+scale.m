@@ -18,4 +18,20 @@
     return scaledImage;
 }
 
+- (UIImage *)bm_imageScaleWithMaxSize:(CGSize)size {
+    CGFloat cgImageWidth = CGImageGetWidth(self.CGImage);
+    CGFloat cgImageHeight = CGImageGetHeight(self.CGImage);
+    if (cgImageWidth > size.width || cgImageHeight > size.height) {
+        float scale = 1.0;
+        if (cgImageWidth > size.width) {
+            scale = size.width / cgImageWidth;
+        }
+        else {
+            scale = size.height / cgImageHeight;
+        }
+        return [self bm_imageScale:scale];
+    }
+    return self;
+}
+
 @end

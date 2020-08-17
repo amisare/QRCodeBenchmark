@@ -28,18 +28,7 @@ using namespace cv;
             
             UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
             // scale size
-            CGFloat cgImageWidth = CGImageGetWidth(image.CGImage);
-            CGFloat cgImageHeight = CGImageGetHeight(image.CGImage);
-            if (cgImageWidth > 756 || cgImageHeight > 1008) {
-                float scale = 1.0;
-                if (cgImageWidth > 756) {
-                    scale = 756.0 / cgImageWidth;
-                }
-                else {
-                    scale = 1008.0 / cgImageHeight;
-                }
-                image = [image bm_imageScale:scale];
-            }
+            image = [image bm_imageScaleWithMaxSize:CGSizeMake(768, 1008)];
             
             NSTimeInterval tick = [[NSDate date] timeIntervalSince1970];
             Mat mat;
@@ -50,7 +39,7 @@ using namespace cv;
             
             NSMutableArray *beachmark = [NSMutableArray new];
             [beachmark addObject:[@"# OpenCV " stringByAppendingString:imageName]];
-            [beachmark addObject:[@"milliseconds = " stringByAppendingString:@(tock - tick).stringValue]];
+            [beachmark addObject:[@"milliseconds = " stringByAppendingString:@((tock - tick) * 1000).stringValue]];
             
             if (msg.length() != 0) {
                 NSString *message = [NSString stringWithUTF8String:msg.c_str()];

@@ -5,13 +5,11 @@ target 'QRCodeBeachmark' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-  pod 'Masonry'
+  pod 'NNMacros'
   pod 'OpenCV'
   pod 'ZBarSDK'
   pod 'ZXingObjC'
   pod 'GoogleMLKit/BarcodeScanning'
-  pod 'NNMacros'
-  
   
   target 'QRCodeBeachmarkTests' do
     inherit! :search_paths
