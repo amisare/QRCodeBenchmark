@@ -1,0 +1,16 @@
+PODS:
+  - Quirc (0.1.0)
+
+DEPENDENCIES:
+  - Quirc (from `../`)
+
+EXTERNAL SOURCES:
+  Quirc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Quirc: b798e0abd0fb6a0f28e10e367b68863b5a0116a9
+
+PODFILE CHECKSUM: f4d90109246c107c316cb283814b0dbee1f1f86b
+
+COCOAPODS: 1.9.3
